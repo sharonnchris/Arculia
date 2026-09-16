@@ -1,0 +1,34 @@
+* {
+  background-color: azure;
+
+}
+
+body {
+  background-color: azure;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.nav{
+  display: flex;
+}
+
+.logo {
+    flex: 0 0 30%;
+    display: flex;
+      /* fixed at 40% of the row */
+      
+}
+
+
+.nav-links
+{
+    display: flex;
+  justify-content: flex-end;
+  flex: 1;
+gap: 20px;
+  text-decoration: none;
+    color: black;
+}
+
+
